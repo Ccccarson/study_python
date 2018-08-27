@@ -16,7 +16,7 @@ hasattr(obj,'y')
 setattr(obj,'y',19)
 hasattr(obj,'y')
 getattr(obj,'y')
-print(obj.y)
+print(obj,'y')
 
 getattr(obj,'z')
 # 可以传入一个default参数，如果属性不存在，就返回默认值
